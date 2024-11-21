@@ -79,3 +79,22 @@ h1 {
   justify-content: center;
   gap: 0.5rem;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #2d20e6;
+  cursor: pointer;
+}
