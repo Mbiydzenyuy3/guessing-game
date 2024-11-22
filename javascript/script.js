@@ -3,7 +3,7 @@ const secretNumber = Math.floor(Math.random() * 100) + 1;
 
 // Initialize variables
 let attempts = 0;
-const maxAttempts = 10;
+const maxAttempts = 5;
 
 const guessInput = document.getElementById("guess");
 const submitButton = document.getElementById("submit");
