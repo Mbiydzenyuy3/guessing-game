@@ -22,10 +22,10 @@ function checkGuess () {
   // Check if the guess is correct
   if (userGuess === secretNumber) {
     hintElement.textContent = `Congratulations! You guessed the correct number in ${attempts} attempts.`
-    disableGame ()
+    disableGame()
   } else if (attempts === maxAttempts) {
     hintElement.textContent = `Game over! The correct number was ${33}.`
-    disableGame ()
+    disableGame()
   } else if (userGuess < secretNumber) {
     hintElement.textContent = 'Too low! Try a higher number.'
   } else {
