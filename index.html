@@ -6,5 +6,29 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Javascript</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="text-box">
+          <h1>WELCOME TO MY NUMBER GUESSING GAME</h1>
+          <p>Guess a number from 1 to 100</p>
+        </div>
+        <div class="input">
+          <input
+            type="tel"
+            class="input-field"
+            id="guess"
+            min="1"
+            max="100"
+            placeholder=""
+            required
+          />
+          <button id="submit" class="btn">Check</button>
+          <p id="hint"></p>
+          <p id="attemps"></p>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/script.js" defer></script>
+  </body>
 </html>
