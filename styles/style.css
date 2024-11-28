@@ -8,6 +8,8 @@ body {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
+  color: #fff;
+  background-color: #e2dfd0;
 }
 
 .container {
@@ -22,6 +24,7 @@ body {
 .content {
   width: 65%;
   border: 1px solid #000;
+  background-color: #32012f;
   height: 50vh;
   text-align: center;
   padding: 2rem;
@@ -53,7 +56,7 @@ button {
   justify-content: center;
   padding: 0.5em;
   color: #fff;
-  background-color: #000;
+  background-color: #f97300;
   border: none;
   outline: none;
   border-radius: 4px;
@@ -89,6 +92,6 @@ input:focus {
 }
 
 button:hover {
-  background-color: #2d20e6;
+  background-color: #524e42;
   cursor: pointer;
 }
